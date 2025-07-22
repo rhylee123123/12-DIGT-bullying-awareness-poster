@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: #ff4a3d;
+  overflow-x: hidden;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Header */
+.header {
+  background: #00cfff;
+  color: black;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 10px;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+/* Top row (img1, text1, img2) */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 300px;
+}
+
+.box {
+  background: white;
+  flex: 1;
+  border-radius: 20px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text1-box {
+  background: #ffff88;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+/* Subheading */
+.subheading {
+  background: #00cfff;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  font-size: 2.2vw;
+  border-radius: 10px;
+}
+
+/* Middle row (text2, img3, text3) */
+.middle-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 300px;
+}
+
+.cloud {
+  flex: 1;
+  border-radius: 50% 40% 50% 40% / 40% 50% 40% 50%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 10px;
+  height: 100%;
+}
+
+.text2 {
+  background: #d38fd3;
+}
+
+.text3 {
+  background: #379e60;
+}
+
+.image-box {
+  background: white;
+}
+
+/* Footer */
+.footer {
+  background: #00cfff;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 1.5vw;
+  border-radius: 5px;
+}
